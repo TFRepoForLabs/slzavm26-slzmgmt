@@ -1,5 +1,6 @@
 ---
 name: 02 Azure Landing Zones Continuous Delivery
+
 on:
   push:
     branches:
@@ -20,6 +21,7 @@ on:
         default: 'latest'
         type: string
 
+# ✅ APPEND THIS BLOCK
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
